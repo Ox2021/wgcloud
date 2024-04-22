@@ -18,12 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @version v3.3
- * @ClassName: OshiUtil
- * @author: http://www.wgstart.com
- * @date: 2021年11月19日
  * @Description: Oshi工具类
- 
  */
 public class OshiUtil {
 

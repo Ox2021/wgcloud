@@ -3,11 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- 
  * @ClassName:SystemInfo.java
-
  * @Description: 查看系统信息
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class SystemInfo extends BaseEntity {
 

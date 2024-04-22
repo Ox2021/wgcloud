@@ -5,12 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- 
  * @ClassName:NetIoState.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: 网络设备的吞吐率
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class NetIoState extends BaseEntity {
 

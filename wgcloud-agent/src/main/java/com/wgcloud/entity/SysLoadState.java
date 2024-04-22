@@ -5,12 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- 
  * @ClassName:SysLoadState.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: uptime查看系统负载状态
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class SysLoadState extends BaseEntity {
 

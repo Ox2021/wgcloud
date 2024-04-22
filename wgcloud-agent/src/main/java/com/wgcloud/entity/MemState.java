@@ -5,12 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- 
  * @ClassName:MemState.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: 查看内存使用情况
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class MemState extends BaseEntity {
 

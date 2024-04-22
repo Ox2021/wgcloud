@@ -5,12 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- 
  * @ClassName:AppState.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: app状态监控
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class AppState extends BaseEntity {
 

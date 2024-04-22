@@ -3,12 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- 
  * @ClassName:AccountInfo.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: AccountInfo.java
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class AccountInfo extends BaseEntity {
 

@@ -3,12 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- 
  * @ClassName:LogInfo.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: 日志信息
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class LogInfo extends BaseEntity {
 

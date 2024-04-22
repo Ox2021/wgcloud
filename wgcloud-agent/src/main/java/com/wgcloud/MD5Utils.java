@@ -11,11 +11,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- 
  * @ClassName:MD5Utils.java
-
  * @Description: Md5加密处理
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 @SuppressWarnings("unused")
 public class MD5Utils {

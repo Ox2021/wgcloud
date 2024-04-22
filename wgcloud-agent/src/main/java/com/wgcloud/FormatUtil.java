@@ -12,12 +12,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- 
  * @ClassName:FormatUtil.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: FormatUtil.java
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class FormatUtil {
 

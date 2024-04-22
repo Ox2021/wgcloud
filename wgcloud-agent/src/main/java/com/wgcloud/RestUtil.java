@@ -11,12 +11,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 /**
- 
  * @ClassName:RestUtil.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: RestUtil.java
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  * REST请求工具类，用于发送HTTP请求并处理响应。
  */
 @Component

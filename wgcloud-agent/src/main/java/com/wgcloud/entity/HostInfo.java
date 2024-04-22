@@ -3,12 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- 
  * @ClassName:HostInfo.java
- * @author: wgcloud
- * @date: 2019年11月16日
  * @Description: host的IP密码等信息
- * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
  */
 public class HostInfo extends BaseEntity {
 
