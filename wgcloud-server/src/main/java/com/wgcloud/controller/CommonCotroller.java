@@ -6,14 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @version v2.3
- * @ClassName:CommonCotroller.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: CommonCotroller.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping(value = "/common/error")
 public class CommonCotroller {

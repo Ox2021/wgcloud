@@ -1,12 +1,8 @@
 package com.wgcloud.entity;
 
 /**
- * @version v2.3
  * @ClassName:DashboardView.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
  * @Description: 主面板概要信息
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
  */
 public class DashboardView extends BaseEntity {
 

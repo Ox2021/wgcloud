@@ -5,12 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- * @version v2.3
  * @ClassName:DeskState.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
  * @Description: 查看磁盘大小使用信息
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
  */
 public class DeskState extends BaseEntity {
 

@@ -3,12 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- * @version v2.3
  * @ClassName:AppInfo.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
  * @Description: app端口信息
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
  */
 public class AppInfo extends BaseEntity {
 

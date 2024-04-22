@@ -21,14 +21,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @version v2.3
- * @ClassName:DbTableCountCountController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: DbTableCountCountController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping("/dbTableCount")
 public class DbTableCountController {

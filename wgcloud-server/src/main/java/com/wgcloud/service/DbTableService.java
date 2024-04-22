@@ -15,12 +15,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @version v2.3
+ 
  * @ClassName:DbTableService.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: DbTableService.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
+ 
  */
 @Service
 public class DbTableService {

@@ -6,11 +6,6 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Properties;
 
-/**
- * @Description
- * @Author Administrator
- * @Date 2019/7/16
- */
 @Configuration
 public class MybatisConf {
     @Bean

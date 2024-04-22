@@ -27,12 +27,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @version v2.3
+ 
  * @ClassName:ScheduledTask.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: ScheduledTask.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
+ 
  */
 @Component
 public class ScheduledTask {

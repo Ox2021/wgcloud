@@ -15,14 +15,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-/**
- * @version v2.3
- * @ClassName:LoginCotroller.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: LoginCotroller.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping(value = "/login")
 public class LoginCotroller {

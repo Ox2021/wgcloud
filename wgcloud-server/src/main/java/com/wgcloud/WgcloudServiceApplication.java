@@ -19,7 +19,6 @@ import java.nio.charset.Charset;
 @SpringBootApplication
 @MapperScan("com.wgcloud.mapper")
 @ServletComponentScan("com.wgcloud.filter")
-@ComponentScan(basePackages = "com.wgcloud")
 @EnableCaching
 @EnableScheduling
 public class WgcloudServiceApplication {

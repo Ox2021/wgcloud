@@ -26,14 +26,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @version v2.3
- * @ClassName:DbTableController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: DbTableController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping("/dbTable")
 public class DbTableController {

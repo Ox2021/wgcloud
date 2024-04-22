@@ -17,14 +17,6 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.Random;
 
-/**
- * @version v2.3
- * @ClassName:CodeController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: CodeController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping(value = "/code")
 public class CodeController {

@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
- * @version V2.3
+ 
  * @ClassName:ApplicationContextHelper.java
  * @author: wgcloud
  * @date: 2019年11月16日

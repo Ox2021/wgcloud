@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Date;
 
 /**
- * @version V2.3
+ 
  * @ClassName:DeskState.java
  * @author: wgcloud
  * @date: 2019年11月16日

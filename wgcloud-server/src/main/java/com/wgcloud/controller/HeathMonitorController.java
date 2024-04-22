@@ -19,14 +19,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @version v2.3
- * @ClassName:HeathMonitorController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: HeathMonitorController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping("/heathMonitor")
 public class HeathMonitorController {

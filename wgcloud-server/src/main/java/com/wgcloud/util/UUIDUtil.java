@@ -5,10 +5,9 @@ import java.util.UUID;
 
 
 /**
- * @version v2.3
+ 
  * @ClassName:UUIDUtil.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: UUIDUtil.java
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

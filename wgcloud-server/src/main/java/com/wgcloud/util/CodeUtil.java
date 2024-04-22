@@ -5,10 +5,9 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 /**
- * @version v2.3
+ 
  * @ClassName:CodeUtil.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: 编码转换
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

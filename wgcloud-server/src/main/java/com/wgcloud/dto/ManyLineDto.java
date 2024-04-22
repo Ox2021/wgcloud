@@ -2,14 +2,6 @@ package com.wgcloud.dto;
 
 import com.wgcloud.entity.BaseEntity;
 
-/**
- * @version v2.3
- * @ClassName:ManyLineDto.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: 表单提交返回信息
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
- */
 public class ManyLineDto extends BaseEntity {
 
     /**

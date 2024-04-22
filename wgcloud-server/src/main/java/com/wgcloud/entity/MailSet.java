@@ -3,12 +3,8 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- * @version v2.3
  * @ClassName:DiskIoState.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
  * @Description: 查看磁盘IO使用情况
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
  */
 public class MailSet extends BaseEntity {
 

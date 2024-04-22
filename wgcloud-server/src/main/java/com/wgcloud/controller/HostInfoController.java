@@ -15,14 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @version v2.3
- * @ClassName:HostInfoController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: 主机备注信息
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Controller
 @RequestMapping("/host")
 public class HostInfoController {

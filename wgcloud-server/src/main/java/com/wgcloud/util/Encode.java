@@ -8,10 +8,9 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 /**
- * @version v2.3
+ 
  * @ClassName:Encode.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: Encode.java
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

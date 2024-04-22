@@ -23,7 +23,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @version V2.3
+ 
  * @ClassName:ScheduledTask.java
  * @author: wgcloud
  * @date: 2019年11月16日
@@ -50,23 +50,34 @@ public class ScheduledTask {
 
     /**
      * 60秒后执行，每隔120秒执行, 单位：ms。
+     * 定时任务方法，用于定期获取Agent端系统信息和进程信息，并上报给服务器。
+     * initialDelay属性表示首次执行任务的延迟时间，本例中延迟59秒后执行。
+     * fixedRate属性表示任务的执行间隔时间，本例中每隔120秒（2分钟）执行一次。
+     * 单位均为毫秒（ms）。
      */
     @Scheduled(initialDelay = 59 * 1000L, fixedRate = 120 * 1000)
     public void minTask() {
-        List<AppInfo> APP_INFO_LIST_CP = new ArrayList<AppInfo>();
+        // 创建一个用于备份监控进程列表的副本
+        List<AppInfo> APP_INFO_LIST_CP = new ArrayList<>();
         APP_INFO_LIST_CP.addAll(appInfoList);
+        // 创建一个JSON对象，用于构建监控数据
         JSONObject jsonObject = new JSONObject();
+        // 创建一个日志信息实例
         LogInfo logInfo = new LogInfo();
+        // 获取当前时间戳
         Timestamp t = FormatUtil.getNowTime();
+        // 设置日志信息的主机名和创建时间
         logInfo.setHostname(commonConfig.getBindIp() + "：Agent错误");
         logInfo.setCreateTime(t);
         try {
+            // 使用Oshi库获取系统信息
             oshi.SystemInfo si = new oshi.SystemInfo();
 
             HardwareAbstractionLayer hal = si.getHardware();
             OperatingSystem os = si.getOperatingSystem();
 
             // 操作系统信息
+            // 获取系统信息、CPU信息、内存信息、网络信息、系统负载信息
             systemInfo = OshiUtil.os(hal.getProcessor(), os);
             systemInfo.setCreateTime(t);
             // 文件系统信息
@@ -85,6 +96,8 @@ public class ScheduledTask {
             if (sysLoadState != null) {
                 sysLoadState.setCreateTime(t);
             }
+
+            // 将获取到的各项信息存储到JSON对象中
             if (cpuState != null) {
                 jsonObject.put("cpuState", cpuState);
             }
@@ -98,6 +111,7 @@ public class ScheduledTask {
                 jsonObject.put("sysLoadState", sysLoadState);
             }
             if (systemInfo != null) {
+                // 设置系统信息中的一些额外属性
                 if (memState != null) {
                     systemInfo.setVersionDetail(systemInfo.getVersion() + "，总内存：" + oshi.util.FormatUtil.formatBytes(hal.getMemory().getTotal()));
                     systemInfo.setMemPer(memState.getUsePer());
@@ -115,6 +129,7 @@ public class ScheduledTask {
                 jsonObject.put("deskStateList", deskStateList);
             }
             //进程信息
+            // 获取并处理监控进程信息
             if (APP_INFO_LIST_CP.size() > 0) {
                 List<AppInfo> appInfoResList = new ArrayList<>();
                 List<AppState> appStateResList = new ArrayList<>();
@@ -139,15 +154,18 @@ public class ScheduledTask {
                 jsonObject.put("appInfoList", appInfoResList);
                 jsonObject.put("appStateList", appStateResList);
             }
-
+            // 输出JSON字符串到日志
             logger.debug("---------------" + jsonObject.toString());
         } catch (Exception e) {
+            // 捕获异常并记录到日志信息中
             e.printStackTrace();
             logInfo.setInfoContent(e.toString());
         } finally {
+            // 如果日志信息不为空，则将其加入JSON对象中
             if (!StringUtils.isEmpty(logInfo.getInfoContent())) {
                 jsonObject.put("logInfo", logInfo);
             }
+            // 发送POST请求将JSON对象上报给服务器
             restUtil.post(commonConfig.getServerUrl() + "/wgcloud/agent/minTask", jsonObject);
         }
 
@@ -157,32 +175,48 @@ public class ScheduledTask {
     /**
      * 30秒后执行，每隔5分钟执行, 单位：ms。
      * 获取监控进程
+     * 通过定时任务，每隔5分钟执行一次，获取监控进程信息并上报给服务器。
+     * initialDelay属性表示首次执行任务的延迟时间，本例中延迟28秒后执行。
+     * fixedRate属性表示任务的执行间隔时间，本例中每隔5分钟（300秒）执行一次。
+     * 单位均为毫秒（ms）。
      */
     @Scheduled(initialDelay = 28 * 1000L, fixedRate = 300 * 1000)
     public void appInfoListTask() {
+        // 创建一个JSON对象，用于记录日志信息
         JSONObject jsonObject = new JSONObject();
+        // 创建一个日志信息实例
         LogInfo logInfo = new LogInfo();
+        // 获取当前时间戳
         Timestamp t = FormatUtil.getNowTime();
+        // 设置日志信息的主机名和创建时间
         logInfo.setHostname(commonConfig.getBindIp() + "：Agent获取进程列表错误");
         logInfo.setCreateTime(t);
         try {
+            // 构建请求参数JSON对象
             JSONObject paramsJson = new JSONObject();
             paramsJson.put("hostname", commonConfig.getBindIp());
+            // 发送POST请求获取监控进程列表
             String resultJson = restUtil.post(commonConfig.getServerUrl() + "/wgcloud/appInfo/agentList", paramsJson);
             if (resultJson != null) {
+                // 解析服务器返回的JSON数组，并转换为AppInfo对象列表
                 JSONArray resultArray = JSONUtil.parseArray(resultJson);
+                // 清空当前的监控进程列表
                 appInfoList.clear();
                 if (resultArray.size() > 0) {
+                    // 如果服务器返回的监控进程列表不为空，则将其转换为AppInfo对象列表并存储到appInfoList中
                     appInfoList = JSONUtil.toList(resultArray, AppInfo.class);
                 }
             }
         } catch (Exception e) {
+            // 捕获异常并记录到日志信息中
             e.printStackTrace();
             logInfo.setInfoContent(e.toString());
         } finally {
+            // 在finally块中进行清理工作，确保日志信息不为空时将其上报给服务器
             if (!StringUtils.isEmpty(logInfo.getInfoContent())) {
                 jsonObject.put("logInfo", logInfo);
             }
+            // 发送POST请求将日志信息上报给服务器
             restUtil.post(commonConfig.getServerUrl() + "/wgcloud/agent/minTask", jsonObject);
         }
     }

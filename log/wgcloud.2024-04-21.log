@@ -1,0 +1,1084 @@
+2024-04-21 13:10:59.133 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 5248 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 13:10:59.135 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 13:10:59.181 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 13:10:59.181 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 13:11:00.235 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 13:11:00.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 13:11:00.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 13:11:00.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 13:11:00.242 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 13:11:00.249 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 13:11:00.249 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 13:11:00.320 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 13:11:00.320 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+2024-04-21 13:11:01.611 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 13:11:01.949 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 13:11:01.985 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 13:11:01.997 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.321 seconds (JVM running for 4.729)
+2024-04-21 13:11:22.021 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 13:11:22.022 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 13:11:22.189 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 13:11:31.999 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:11:31
+2024-04-21 13:11:32.000 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:11:32
+2024-04-21 13:12:31.995 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:12:31
+2024-04-21 13:12:31.995 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 13:12:31
+2024-04-21 13:12:31.998 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:12:31
+2024-04-21 13:13:18.276 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 13:13:18.276 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 13:13:18.277 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 13:13:32.001 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:13:32
+2024-04-21 13:13:32.001 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:13:32
+2024-04-21 13:14:32.002 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:14:32
+2024-04-21 13:14:32.002 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:14:32
+2024-04-21 13:15:32.003 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:15:32
+2024-04-21 13:15:32.003 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:15:32
+2024-04-21 13:16:31.999 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:16:31
+2024-04-21 13:16:31.999 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:16:31
+2024-04-21 13:17:31.999 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:17:31
+2024-04-21 13:17:31.999 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:17:31
+2024-04-21 13:17:55.692 [http-nio-9999-exec-8] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.controller.MailSetController.test(MailSetController.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 56 common frames omitted
+2024-04-21 13:18:32.000 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:18:32
+2024-04-21 13:18:32.000 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:18:32
+2024-04-21 13:19:32.002 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:19:32
+2024-04-21 13:19:32.002 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:19:32
+2024-04-21 13:20:32.007 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:20:32
+2024-04-21 13:20:32.007 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:20:32
+2024-04-21 13:21:31.996 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:21:31
+2024-04-21 13:21:31.996 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:21:31
+2024-04-21 13:22:32.007 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:22:32
+2024-04-21 13:22:32.007 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 13:22:32
+2024-04-21 13:22:32.067 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:22:32
+2024-04-21 13:23:32.006 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:23:32
+2024-04-21 13:23:32.006 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:23:32
+2024-04-21 13:24:32.005 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:24:32
+2024-04-21 13:24:32.046 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:24:32
+2024-04-21 13:25:32.007 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:25:32
+2024-04-21 13:25:32.007 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:25:32
+2024-04-21 13:26:31.997 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:26:31
+2024-04-21 13:26:32.033 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:26:32
+2024-04-21 13:27:31.996 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:27:31
+2024-04-21 13:27:31.996 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:27:31
+2024-04-21 13:28:31.995 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:28:31
+2024-04-21 13:28:32.043 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:28:32
+2024-04-21 13:29:31.996 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:29:31
+2024-04-21 13:29:31.996 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:29:31
+2024-04-21 13:30:31.995 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:30:31
+2024-04-21 13:30:32.492 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:30:32
+2024-04-21 13:31:31.995 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:31:31
+2024-04-21 13:31:31.995 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:31:31
+2024-04-21 13:32:31.996 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:32:31
+2024-04-21 13:32:31.996 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 13:32:31
+2024-04-21 13:32:32.024 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:32:32
+2024-04-21 13:33:31.995 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:33:31
+2024-04-21 13:33:31.995 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:33:31
+2024-04-21 13:34:31.995 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:34:31
+2024-04-21 13:34:32.020 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:34:32
+2024-04-21 13:35:31.995 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:35:31
+2024-04-21 13:35:31.995 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:35:31
+2024-04-21 13:36:31.997 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:36:31
+2024-04-21 13:36:32.023 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:36:32
+2024-04-21 13:36:41.142 [pool-2-thread-4] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.util.msg.WarnMailUtil.sendHostDown(WarnMailUtil.java:186)
+	at com.wgcloud.task.ScheduledTask.lambda$hostDownCheckTask$0(ScheduledTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 7 common frames omitted
+2024-04-21 13:37:31.996 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:37:31
+2024-04-21 13:37:31.996 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:37:31
+2024-04-21 13:38:31.996 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:38:31
+2024-04-21 13:38:32.022 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:38:32
+2024-04-21 13:39:31.998 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:39:31
+2024-04-21 13:39:31.998 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:39:31
+2024-04-21 13:40:31.996 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:40:31
+2024-04-21 13:40:32.034 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:40:32
+2024-04-21 13:41:31.998 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:41:31
+2024-04-21 13:41:31.998 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:41:31
+2024-04-21 13:42:31.998 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:42:31
+2024-04-21 13:42:31.998 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 13:42:31
+2024-04-21 13:42:32.042 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:42:32
+2024-04-21 13:43:31.996 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:43:31
+2024-04-21 13:43:31.996 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:43:31
+2024-04-21 13:44:31.996 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:44:31
+2024-04-21 13:44:32.023 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:44:32
+2024-04-21 13:45:31.996 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:45:31
+2024-04-21 13:45:31.996 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:45:31
+2024-04-21 13:46:31.994 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:46:31
+2024-04-21 13:46:32.022 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:46:32
+2024-04-21 13:47:31.995 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:47:31
+2024-04-21 13:47:31.995 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:47:31
+2024-04-21 13:48:31.995 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:48:31
+2024-04-21 13:48:32.019 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:48:32
+2024-04-21 13:49:31.998 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:49:31
+2024-04-21 13:49:31.998 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:49:31
+2024-04-21 13:50:31.998 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:50:31
+2024-04-21 13:50:32.022 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:50:32
+2024-04-21 13:51:31.994 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:51:31
+2024-04-21 13:51:31.994 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:51:31
+2024-04-21 13:52:31.996 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:52:31
+2024-04-21 13:52:31.996 [taskScheduler-15] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 13:52:31
+2024-04-21 13:52:32.026 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:52:32
+2024-04-21 13:53:31.996 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:53:31
+2024-04-21 13:53:31.996 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:53:31
+2024-04-21 13:54:31.996 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:54:31
+2024-04-21 13:54:32.019 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:54:32
+2024-04-21 13:55:31.995 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:55:31
+2024-04-21 13:55:31.995 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:55:31
+2024-04-21 13:56:31.995 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:56:31
+2024-04-21 13:56:32.037 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:56:32
+2024-04-21 13:56:41.179 [pool-2-thread-5] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.util.msg.WarnMailUtil.sendAppDown(WarnMailUtil.java:238)
+	at com.wgcloud.task.ScheduledTask.lambda$hostDownCheckTask$2(ScheduledTask.java:183)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 7 common frames omitted
+2024-04-21 13:57:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:57:31
+2024-04-21 13:57:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:57:31
+2024-04-21 13:58:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:58:31
+2024-04-21 13:58:32.033 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:58:32
+2024-04-21 13:59:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 13:59:31
+2024-04-21 13:59:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 13:59:31
+2024-04-21 13:59:38.586 [http-nio-9999-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /wgcloud/login/login.html
+2024-04-21 14:00:31.996 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:00:31
+2024-04-21 14:00:32.021 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:00:32
+2024-04-21 14:01:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:01:31
+2024-04-21 14:01:31.997 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:01:31
+2024-04-21 14:02:31.996 [taskScheduler-26] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:02:31
+2024-04-21 14:02:31.996 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:02:31
+2024-04-21 14:02:32.024 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:02:32
+2024-04-21 14:03:13.257 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-21 14:03:13.265 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-21 14:04:18.081 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 15564 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 14:04:18.082 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 14:04:18.124 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 14:04:18.124 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 14:04:19.132 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 14:04:19.133 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 14:04:19.133 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 14:04:19.133 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 14:04:19.152 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 14:04:19.160 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 14:04:19.160 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 14:04:19.229 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 14:04:19.229 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1105 ms
+2024-04-21 14:04:20.573 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 14:04:20.870 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 14:04:20.896 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 14:04:20.908 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.501 seconds (JVM running for 5.21)
+2024-04-21 14:04:24.594 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 14:04:24.594 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 14:04:24.595 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 14:04:40.926 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 14:04:40.927 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 14:04:41.099 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 14:04:50.909 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:04:50
+2024-04-21 14:04:51.010 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:04:51
+2024-04-21 14:05:50.921 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:05:50
+2024-04-21 14:05:50.921 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:05:50
+2024-04-21 14:05:50.921 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:05:50
+2024-04-21 14:06:50.909 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:06:50
+2024-04-21 14:06:50.956 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:06:50
+2024-04-21 14:07:50.908 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:07:50
+2024-04-21 14:07:50.908 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:07:50
+2024-04-21 14:08:50.909 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:08:50
+2024-04-21 14:08:50.951 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:08:50
+2024-04-21 14:09:50.907 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:09:50
+2024-04-21 14:09:50.907 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:09:50
+2024-04-21 14:10:00.119 [pool-2-thread-1] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.util.msg.WarnMailUtil.sendAppDown(WarnMailUtil.java:238)
+	at com.wgcloud.task.ScheduledTask.lambda$hostDownCheckTask$2(ScheduledTask.java:183)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 7 common frames omitted
+2024-04-21 14:10:50.908 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:10:50
+2024-04-21 14:10:50.934 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:10:50
+2024-04-21 14:11:50.907 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:11:50
+2024-04-21 14:11:50.941 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:11:50
+2024-04-21 14:12:50.907 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:12:50
+2024-04-21 14:12:50.935 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:12:50
+2024-04-21 14:13:50.907 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:13:50
+2024-04-21 14:13:50.932 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:13:50
+2024-04-21 14:14:50.907 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:14:50
+2024-04-21 14:14:50.930 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:14:50
+2024-04-21 14:15:44.495 [http-nio-9999-exec-9] ERROR com.wgcloud.util.jdbc.ConnectionUtil - 连接数据库错误
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLRecoverableException: IO 错误: Invalid number format for port number
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(JdbcTemplate.java:530)
+	at com.wgcloud.util.jdbc.ConnectionUtil.getJdbcTemplate(ConnectionUtil.java:69)
+	at com.wgcloud.controller.DbInfoController.valdateDbInfo(DbInfoController.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLRecoverableException: IO 错误: Invalid number format for port number
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:458)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:546)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:236)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 58 common frames omitted
+Caused by: oracle.net.ns.NetException: Invalid number format for port number
+	at oracle.net.resolver.AddrResolution.resolveSimple(AddrResolution.java:512)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:409)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:687)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:247)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1102)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:320)
+	... 71 common frames omitted
+2024-04-21 14:15:50.908 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:15:50
+2024-04-21 14:15:50.908 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:15:50
+2024-04-21 14:15:50.931 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:15:50
+2024-04-21 14:16:50.919 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:16:50
+2024-04-21 14:16:50.946 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:16:50
+2024-04-21 14:17:50.908 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:17:50
+2024-04-21 14:17:50.938 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:17:50
+2024-04-21 14:18:50.907 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:18:50
+2024-04-21 14:18:50.938 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:18:50
+2024-04-21 14:19:50.912 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:19:50
+2024-04-21 14:19:50.933 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:19:50
+2024-04-21 14:20:50.917 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:20:50
+2024-04-21 14:20:50.942 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:20:50
+2024-04-21 14:21:50.907 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:21:50
+2024-04-21 14:21:50.928 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:21:50
+2024-04-21 14:22:50.912 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:22:50
+2024-04-21 14:22:50.939 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:22:50
+2024-04-21 14:23:50.917 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:23:50
+2024-04-21 14:23:50.943 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:23:50
+2024-04-21 14:24:50.907 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:24:50
+2024-04-21 14:24:50.931 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:24:50
+2024-04-21 14:25:50.909 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:25:50
+2024-04-21 14:25:50.909 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:25:50
+2024-04-21 14:25:50.983 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:25:50
+2024-04-21 14:26:50.918 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:26:50
+2024-04-21 14:26:50.941 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:26:50
+2024-04-21 14:27:50.906 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:27:50
+2024-04-21 14:27:50.932 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:27:50
+2024-04-21 14:28:50.906 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:28:50
+2024-04-21 14:28:50.927 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:28:50
+2024-04-21 14:29:50.906 [taskScheduler-24] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:29:50
+2024-04-21 14:29:50.927 [taskScheduler-24] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:29:50
+2024-04-21 14:30:00.066 [pool-2-thread-2] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.util.msg.WarnMailUtil.sendAppDown(WarnMailUtil.java:253)
+	at com.wgcloud.task.ScheduledTask.lambda$hostDownCheckTask$3(ScheduledTask.java:189)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 7 common frames omitted
+2024-04-21 14:30:03.489 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-21 14:30:03.494 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-21 14:30:09.157 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 15584 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 14:30:09.159 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 14:30:09.210 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 14:30:09.210 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 14:30:16.036 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 14:30:16.084 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 14:30:16.084 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 14:30:16.085 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 14:30:16.398 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 14:30:16.804 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 14:30:16.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 14:30:17.883 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 14:30:17.883 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8672 ms
+2024-04-21 14:30:21.232 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 14:30:21.463 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 14:30:21.501 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 14:30:21.515 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 12.812 seconds (JVM running for 14.39)
+2024-04-21 14:30:25.087 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 14:30:25.087 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 14:30:25.088 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 14:30:28.165 [http-nio-9999-exec-5] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 14:30:28.166 [http-nio-9999-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 14:30:28.355 [http-nio-9999-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 14:30:51.512 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:30:51
+2024-04-21 14:30:51.606 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:30:51
+2024-04-21 14:31:51.517 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:31:51
+2024-04-21 14:31:51.517 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:31:51
+2024-04-21 14:31:51.601 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:31:51
+2024-04-21 14:32:51.810 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:32:51
+2024-04-21 14:32:52.367 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:32:52
+2024-04-21 14:33:51.515 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:33:51
+2024-04-21 14:33:51.548 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:33:51
+2024-04-21 14:34:51.522 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:34:51
+2024-04-21 14:34:51.875 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:34:51
+2024-04-21 14:35:51.513 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:35:51
+2024-04-21 14:35:51.545 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:35:51
+2024-04-21 14:36:51.514 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:36:51
+2024-04-21 14:36:51.548 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:36:51
+2024-04-21 14:37:51.512 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:37:51
+2024-04-21 14:37:51.551 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:37:51
+2024-04-21 14:38:51.513 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:38:51
+2024-04-21 14:38:51.542 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:38:51
+2024-04-21 14:39:51.512 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:39:51
+2024-04-21 14:39:51.538 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:39:51
+2024-04-21 14:40:51.514 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:40:51
+2024-04-21 14:40:51.563 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:40:51
+2024-04-21 14:41:51.511 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:41:51
+2024-04-21 14:41:51.511 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:41:51
+2024-04-21 14:41:51.549 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:41:51
+2024-04-21 14:42:51.631 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:42:51
+2024-04-21 14:42:53.905 [taskScheduler-7] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:42:53
+2024-04-21 14:43:51.520 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:43:51
+2024-04-21 14:43:51.648 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:43:51
+2024-04-21 14:44:51.514 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:44:51
+2024-04-21 14:44:51.582 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:44:51
+2024-04-21 14:45:51.516 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:45:51
+2024-04-21 14:45:51.589 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:45:51
+2024-04-21 14:46:51.513 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:46:51
+2024-04-21 14:46:51.551 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:46:51
+2024-04-21 14:47:51.512 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:47:51
+2024-04-21 14:47:51.546 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:47:51
+2024-04-21 14:48:51.512 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:48:51
+2024-04-21 14:48:51.536 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:48:51
+2024-04-21 14:49:08.057 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-21 14:49:08.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-21 14:49:12.535 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 13344 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 14:49:12.536 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 14:49:12.621 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 14:49:12.622 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 14:49:14.236 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 14:49:14.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 14:49:14.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 14:49:14.237 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 14:49:14.258 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 14:49:14.266 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 14:49:14.266 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 14:49:14.337 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 14:49:14.338 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+2024-04-21 14:49:15.797 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 14:49:16.122 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 14:49:16.168 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 14:49:16.186 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 4.315 seconds (JVM running for 5.807)
+2024-04-21 14:49:16.354 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 14:49:16.354 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 14:49:16.355 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 14:49:16.505 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 14:49:16.506 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 14:49:16.700 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 14:49:33.705 [http-nio-9999-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /wgcloud/login/login.html
+2024-04-21 14:49:46.183 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:49:46
+2024-04-21 14:49:46.244 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:49:46
+2024-04-21 14:50:09.801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-21 14:50:09.807 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-21 14:50:23.614 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 10628 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 14:50:23.615 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 14:50:23.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 14:50:23.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 14:50:24.850 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 14:50:24.851 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 14:50:24.851 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 14:50:24.851 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 14:50:24.872 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 14:50:24.879 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 14:50:24.879 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 14:50:24.955 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 14:50:24.955 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1289 ms
+2024-04-21 14:50:26.300 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 14:50:26.550 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 14:50:26.589 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 14:50:26.600 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 7.991 seconds (JVM running for 14.797)
+2024-04-21 14:50:26.816 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 14:50:26.817 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 14:50:26.818 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 14:50:42.096 [http-nio-9999-exec-2] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 14:50:42.097 [http-nio-9999-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 14:50:42.234 [http-nio-9999-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 14:50:56.600 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:50:56
+2024-04-21 14:50:56.712 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:50:56
+2024-04-21 14:51:56.602 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:51:56
+2024-04-21 14:51:56.602 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:51:56
+2024-04-21 14:51:57.102 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:51:57
+2024-04-21 14:52:56.598 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:52:56
+2024-04-21 14:52:56.655 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:52:56
+2024-04-21 14:53:56.604 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:53:56
+2024-04-21 14:53:56.698 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:53:56
+2024-04-21 14:53:58.659 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-21 14:53:58.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-21 14:54:04.398 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 14416 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 14:54:04.399 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 14:54:04.440 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 14:54:04.440 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 14:54:05.491 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 14:54:05.492 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 14:54:05.493 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 14:54:05.493 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 14:54:05.513 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 14:54:05.520 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 14:54:05.520 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 14:54:05.592 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 14:54:05.592 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1151 ms
+2024-04-21 14:54:06.978 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 14:54:07.213 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 14:54:07.248 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 14:54:07.261 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.295 seconds (JVM running for 4.751)
+2024-04-21 14:54:16.726 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 14:54:16.727 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 14:54:16.728 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-21 14:54:16.807 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 14:54:16.808 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 14:54:17.009 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 14:54:37.263 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:54:37
+2024-04-21 14:54:37.352 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:54:37
+2024-04-21 14:55:37.262 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 14:55:37
+2024-04-21 14:55:37.262 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:55:37
+2024-04-21 14:55:37.317 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:55:37
+2024-04-21 14:56:37.261 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:56:37
+2024-04-21 14:56:37.289 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:56:37
+2024-04-21 14:57:37.262 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:57:37
+2024-04-21 14:57:37.289 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:57:37
+2024-04-21 14:58:37.260 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:58:37
+2024-04-21 14:58:37.427 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:58:37
+2024-04-21 14:59:37.264 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 14:59:37
+2024-04-21 14:59:37.306 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 14:59:37
+2024-04-21 15:00:37.260 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:00:37
+2024-04-21 15:00:37.298 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:00:37
+2024-04-21 15:01:37.261 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:01:37
+2024-04-21 15:01:37.701 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:01:37
+2024-04-21 15:02:37.261 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:02:37
+2024-04-21 15:02:37.287 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:02:37
+2024-04-21 15:03:37.269 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:03:37
+2024-04-21 15:03:37.345 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:03:37
+2024-04-21 15:04:37.312 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:04:37
+2024-04-21 15:04:38.068 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:04:38
+2024-04-21 15:05:33.310 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 11556 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 15:05:33.312 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 15:05:33.368 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 15:05:33.369 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 15:05:37.694 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:05:37
+2024-04-21 15:05:37.694 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:05:37
+2024-04-21 15:05:38.784 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 15:05:38.809 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 15:05:38.809 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 15:05:38.809 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 15:05:39.112 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 15:05:39.195 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 15:05:39.195 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 15:05:39.770 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 15:05:39.770 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6401 ms
+2024-04-21 15:05:40.982 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:05:40
+2024-04-21 15:05:44.486 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 15:05:44.736 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-04-21 15:05:44.761 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2024-04-21 15:05:44.767 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-21 15:05:44.780 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-21 15:05:44.799 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2024-04-21 15:06:37.269 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:06:37
+2024-04-21 15:06:37.318 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:06:37
+2024-04-21 15:07:37.263 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:07:37
+2024-04-21 15:07:37.297 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:07:37
+2024-04-21 15:07:48.135 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 16608 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 15:07:48.136 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 15:07:48.183 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 15:07:48.184 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 15:07:49.244 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 15:07:49.245 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 15:07:49.245 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 15:07:49.245 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 15:07:49.266 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 15:07:49.274 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 15:07:49.274 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 15:07:49.347 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 15:07:49.347 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1163 ms
+2024-04-21 15:07:50.684 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 15:07:50.943 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-04-21 15:07:50.967 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2024-04-21 15:07:50.972 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-21 15:07:50.981 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-21 15:07:50.997 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2024-04-21 15:08:37.270 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:08:37
+2024-04-21 15:08:37.589 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:08:37
+2024-04-21 15:08:53.149 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 1.8.0_152 on LAPTOP-6960I0SV with PID 17264 (D:\Code\wgcloud\wgcloud-server\target\classes started by 86150 in D:\Code\wgcloud)
+2024-04-21 15:08:53.150 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-21 15:08:53.191 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21 15:08:53.191 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-21 15:08:54.266 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2024-04-21 15:08:54.267 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2024-04-21 15:08:54.267 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-04-21 15:08:54.267 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-04-21 15:08:54.286 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2024-04-21 15:08:54.294 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-21 15:08:54.294 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-04-21 15:08:54.364 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2024-04-21 15:08:54.364 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2024-04-21 15:08:55.671 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-04-21 15:08:55.918 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-04-21 15:08:55.966 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2024-04-21 15:08:55.980 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.291 seconds (JVM running for 4.732)
+2024-04-21 15:09:10.995 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21 15:09:10.995 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-21 15:09:10.996 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-04-21 15:09:15.998 [taskScheduler-2] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-21 15:09:15.999 [taskScheduler-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-21 15:09:16.137 [taskScheduler-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-21 15:09:25.992 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:09:25
+2024-04-21 15:09:26.677 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:09:26
+2024-04-21 15:10:25.978 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:10:25
+2024-04-21 15:10:25.978 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:10:25
+2024-04-21 15:10:26.021 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:10:26
+2024-04-21 15:11:25.981 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:11:25
+2024-04-21 15:11:26.032 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:11:26
+2024-04-21 15:12:25.981 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:12:25
+2024-04-21 15:12:26.011 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:12:26
+2024-04-21 15:13:25.980 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:13:25
+2024-04-21 15:13:26.015 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:13:26
+2024-04-21 15:14:25.979 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:14:25
+2024-04-21 15:14:26.723 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:14:26
+2024-04-21 15:15:25.981 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:15:25
+2024-04-21 15:15:26.013 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:15:26
+2024-04-21 15:16:25.978 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:16:25
+2024-04-21 15:16:26.011 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:16:26
+2024-04-21 15:17:25.981 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:17:25
+2024-04-21 15:17:26.010 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:17:26
+2024-04-21 15:18:25.979 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:18:25
+2024-04-21 15:18:26.006 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:18:26
+2024-04-21 15:19:25.979 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:19:25
+2024-04-21 15:19:26.004 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:19:26
+2024-04-21 15:20:25.988 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:20:25
+2024-04-21 15:20:25.988 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:20:25
+2024-04-21 15:20:26.083 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:20:26
+2024-04-21 15:21:25.986 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:21:25
+2024-04-21 15:21:26.053 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:21:26
+2024-04-21 15:22:25.981 [taskScheduler-15] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:22:25
+2024-04-21 15:22:26.014 [taskScheduler-15] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:22:26
+2024-04-21 15:23:25.988 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:23:25
+2024-04-21 15:23:26.019 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:23:26
+2024-04-21 15:24:25.981 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:24:25
+2024-04-21 15:24:26.025 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:24:26
+2024-04-21 15:25:25.986 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:25:25
+2024-04-21 15:25:26.394 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:25:26
+2024-04-21 15:26:25.981 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:26:25
+2024-04-21 15:26:26.007 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:26:26
+2024-04-21 15:27:21.579 [http-nio-9999-exec-9] ERROR com.wgcloud.util.msg.WarnMailUtil - 发送邮件错误：
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
+	at org.apache.commons.mail.Email.send(Email.java:1496)
+	at com.wgcloud.util.msg.WarnMailUtil.sendMail(WarnMailUtil.java:279)
+	at com.wgcloud.controller.MailSetController.test(MailSetController.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.mail.MessagingException: Could not connect to SMTP host: smtp.qq.com, port: 465, response: -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2106)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:712)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1459)
+	... 56 common frames omitted
+2024-04-21 15:27:25.979 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:27:25
+2024-04-21 15:27:26.012 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:27:26
+2024-04-21 15:28:25.980 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:28:25
+2024-04-21 15:28:26.014 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:28:26
+2024-04-21 15:29:25.993 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:29:25
+2024-04-21 15:29:26.031 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:29:26
+2024-04-21 15:30:25.978 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:30:25
+2024-04-21 15:30:25.979 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:30:25
+2024-04-21 15:30:26.021 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:30:26
+2024-04-21 15:31:25.979 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:31:25
+2024-04-21 15:31:26.010 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:31:26
+2024-04-21 15:32:25.979 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:32:25
+2024-04-21 15:32:26.011 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:32:26
+2024-04-21 15:33:25.979 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:33:25
+2024-04-21 15:33:26.007 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:33:26
+2024-04-21 15:34:25.978 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:34:25
+2024-04-21 15:34:26.003 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:34:26
+2024-04-21 15:35:25.979 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:35:25
+2024-04-21 15:35:26.002 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:35:26
+2024-04-21 15:36:25.979 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:36:25
+2024-04-21 15:36:26.005 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:36:26
+2024-04-21 15:37:25.979 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:37:25
+2024-04-21 15:37:26.002 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:37:26
+2024-04-21 15:38:25.981 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:38:25
+2024-04-21 15:38:26.007 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:38:26
+2024-04-21 15:39:25.980 [taskScheduler-29] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:39:25
+2024-04-21 15:39:26.008 [taskScheduler-29] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:39:26
+2024-04-21 15:40:25.980 [taskScheduler-25] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:40:25
+2024-04-21 15:40:25.980 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:40:25
+2024-04-21 15:40:26.016 [taskScheduler-19] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:40:26
+2024-04-21 15:41:25.979 [taskScheduler-21] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:41:25
+2024-04-21 15:41:26.006 [taskScheduler-21] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:41:26
+2024-04-21 15:42:25.979 [taskScheduler-31] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:42:25
+2024-04-21 15:42:26.004 [taskScheduler-31] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:42:26
+2024-04-21 15:43:25.978 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:43:25
+2024-04-21 15:43:26.003 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:43:26
+2024-04-21 15:44:25.979 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:44:25
+2024-04-21 15:44:26.000 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:44:26
+2024-04-21 15:45:25.980 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:45:25
+2024-04-21 15:45:26.003 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:45:26
+2024-04-21 15:46:25.982 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:46:25
+2024-04-21 15:46:26.007 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:46:26
+2024-04-21 15:47:25.980 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:47:25
+2024-04-21 15:47:26.002 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:47:26
+2024-04-21 15:48:25.981 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:48:25
+2024-04-21 15:48:26.002 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:48:26
+2024-04-21 15:49:25.980 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:49:25
+2024-04-21 15:49:26.006 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:49:26
+2024-04-21 15:50:25.978 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 15:50:25
+2024-04-21 15:50:25.978 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:50:25
+2024-04-21 15:50:26.008 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:50:26
+2024-04-21 15:51:25.980 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:51:25
+2024-04-21 15:51:26.002 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:51:26
+2024-04-21 15:52:25.980 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:52:25
+2024-04-21 15:52:26.005 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:52:26
+2024-04-21 15:53:25.989 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:53:25
+2024-04-21 15:53:26.012 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:53:26
+2024-04-21 15:54:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:54:25
+2024-04-21 15:54:26.001 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:54:26
+2024-04-21 15:55:25.989 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:55:25
+2024-04-21 15:55:26.010 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:55:26
+2024-04-21 15:56:25.978 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:56:25
+2024-04-21 15:56:25.999 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:56:25
+2024-04-21 15:57:25.980 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:57:25
+2024-04-21 15:57:26.008 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:57:26
+2024-04-21 15:58:25.978 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:58:25
+2024-04-21 15:58:25.998 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:58:25
+2024-04-21 15:59:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 15:59:25
+2024-04-21 15:59:26.008 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 15:59:26
+2024-04-21 16:00:25.979 [taskScheduler-42] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:00:25
+2024-04-21 16:00:25.980 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:00:25
+2024-04-21 16:00:26.010 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:00:26
+2024-04-21 16:01:25.992 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:01:25
+2024-04-21 16:01:26.017 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:01:26
+2024-04-21 16:02:25.978 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:02:25
+2024-04-21 16:02:26.001 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:02:26
+2024-04-21 16:03:25.981 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:03:25
+2024-04-21 16:03:26.000 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:03:26
+2024-04-21 16:04:25.981 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:04:25
+2024-04-21 16:04:26.006 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:04:26
+2024-04-21 16:05:25.978 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:05:25
+2024-04-21 16:05:26.000 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:05:26
+2024-04-21 16:06:25.979 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:06:25
+2024-04-21 16:06:25.998 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:06:25
+2024-04-21 16:07:25.988 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:07:25
+2024-04-21 16:07:26.022 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:07:26
+2024-04-21 16:08:25.991 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:08:25
+2024-04-21 16:08:26.020 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:08:26
+2024-04-21 16:09:25.981 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:09:25
+2024-04-21 16:09:26.010 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:09:26
+2024-04-21 16:10:25.980 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:10:25
+2024-04-21 16:10:25.980 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:10:25
+2024-04-21 16:10:26.012 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:10:26
+2024-04-21 16:11:25.982 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:11:25
+2024-04-21 16:11:26.014 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:11:26
+2024-04-21 16:12:25.985 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:12:25
+2024-04-21 16:12:26.013 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:12:26
+2024-04-21 16:13:25.981 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:13:25
+2024-04-21 16:13:26.004 [taskScheduler-33] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:13:26
+2024-04-21 16:14:25.982 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:14:25
+2024-04-21 16:14:26.005 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:14:26
+2024-04-21 16:15:25.982 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:15:25
+2024-04-21 16:15:26.003 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:15:26
+2024-04-21 16:16:25.986 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:16:25
+2024-04-21 16:16:26.010 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:16:26
+2024-04-21 16:17:25.979 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:17:25
+2024-04-21 16:17:25.999 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:17:25
+2024-04-21 16:18:25.982 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:18:25
+2024-04-21 16:18:26.003 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:18:26
+2024-04-21 16:19:25.990 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:19:25
+2024-04-21 16:19:26.014 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:19:26
+2024-04-21 16:20:25.980 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:20:25
+2024-04-21 16:20:25.981 [taskScheduler-23] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:20:25
+2024-04-21 16:20:26.006 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:20:26
+2024-04-21 16:21:25.982 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:21:25
+2024-04-21 16:21:26.004 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:21:26
+2024-04-21 16:22:25.980 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:22:25
+2024-04-21 16:22:26.001 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:22:26
+2024-04-21 16:23:25.978 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:23:25
+2024-04-21 16:23:26.001 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:23:26
+2024-04-21 16:24:25.981 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:24:25
+2024-04-21 16:24:26.004 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:24:26
+2024-04-21 16:25:25.990 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:25:25
+2024-04-21 16:25:26.020 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:25:26
+2024-04-21 16:26:25.989 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:26:25
+2024-04-21 16:26:26.012 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:26:26
+2024-04-21 16:27:25.979 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:27:25
+2024-04-21 16:27:25.998 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:27:25
+2024-04-21 16:28:25.978 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:28:25
+2024-04-21 16:28:26.005 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:28:26
+2024-04-21 16:29:25.978 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:29:25
+2024-04-21 16:29:26.000 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:29:26
+2024-04-21 16:30:25.980 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:30:25
+2024-04-21 16:30:25.980 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:30:25
+2024-04-21 16:30:26.001 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:30:26
+2024-04-21 16:31:25.978 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:31:25
+2024-04-21 16:31:25.999 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:31:25
+2024-04-21 16:32:25.980 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:32:25
+2024-04-21 16:32:26.001 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:32:26
+2024-04-21 16:33:25.979 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:33:25
+2024-04-21 16:33:26.000 [taskScheduler-46] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:33:26
+2024-04-21 16:34:25.979 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:34:25
+2024-04-21 16:34:26.000 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:34:26
+2024-04-21 16:35:25.979 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:35:25
+2024-04-21 16:35:25.997 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:35:25
+2024-04-21 16:36:25.986 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:36:25
+2024-04-21 16:36:26.005 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:36:26
+2024-04-21 16:37:25.978 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:37:25
+2024-04-21 16:37:26.001 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:37:26
+2024-04-21 16:38:25.981 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:38:25
+2024-04-21 16:38:26.001 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:38:26
+2024-04-21 16:39:25.979 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:39:25
+2024-04-21 16:39:26.002 [taskScheduler-48] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:39:26
+2024-04-21 16:40:25.978 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:40:25
+2024-04-21 16:40:25.978 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:40:25
+2024-04-21 16:40:26.002 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:40:26
+2024-04-21 16:41:25.978 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:41:25
+2024-04-21 16:41:25.997 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:41:25
+2024-04-21 16:42:25.981 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:42:25
+2024-04-21 16:42:26.003 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:42:26
+2024-04-21 16:43:25.992 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:43:25
+2024-04-21 16:43:26.018 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:43:26
+2024-04-21 16:44:25.979 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:44:25
+2024-04-21 16:44:26.000 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:44:26
+2024-04-21 16:45:25.978 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:45:25
+2024-04-21 16:45:26.004 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:45:26
+2024-04-21 16:46:25.989 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:46:25
+2024-04-21 16:46:26.009 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:46:26
+2024-04-21 16:47:25.979 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:47:25
+2024-04-21 16:47:25.997 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:47:25
+2024-04-21 16:48:25.979 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:48:25
+2024-04-21 16:48:26.000 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:48:26
+2024-04-21 16:49:25.979 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:49:25
+2024-04-21 16:49:25.997 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:49:25
+2024-04-21 16:50:25.979 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 16:50:25
+2024-04-21 16:50:25.979 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:50:25
+2024-04-21 16:50:26.007 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:50:26
+2024-04-21 16:51:25.982 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:51:25
+2024-04-21 16:51:26.000 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:51:26
+2024-04-21 16:52:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:52:25
+2024-04-21 16:52:26.001 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:52:26
+2024-04-21 16:53:25.979 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:53:25
+2024-04-21 16:53:26.000 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:53:26
+2024-04-21 16:54:25.979 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:54:25
+2024-04-21 16:54:25.998 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:54:25
+2024-04-21 16:55:25.979 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:55:25
+2024-04-21 16:55:25.999 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:55:25
+2024-04-21 16:56:25.979 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:56:25
+2024-04-21 16:56:26.000 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:56:26
+2024-04-21 16:57:25.978 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:57:25
+2024-04-21 16:57:25.998 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:57:25
+2024-04-21 16:58:25.987 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:58:25
+2024-04-21 16:58:26.008 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:58:26
+2024-04-21 16:59:25.981 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 16:59:25
+2024-04-21 16:59:26.001 [taskScheduler-28] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 16:59:26
+2024-04-21 17:00:25.981 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:00:25
+2024-04-21 17:00:25.981 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 17:00:25
+2024-04-21 17:00:26.012 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:00:26
+2024-04-21 17:01:25.980 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:01:25
+2024-04-21 17:01:26.001 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:01:26
+2024-04-21 17:02:25.981 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:02:25
+2024-04-21 17:02:26.002 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:02:26
+2024-04-21 17:03:25.989 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:03:25
+2024-04-21 17:03:26.009 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:03:26
+2024-04-21 17:04:25.981 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:04:25
+2024-04-21 17:04:26.008 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:04:26
+2024-04-21 17:05:25.981 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:05:25
+2024-04-21 17:05:26.004 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:05:26
+2024-04-21 17:06:25.979 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:06:25
+2024-04-21 17:06:26.499 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:06:26
+2024-04-21 17:07:25.981 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:07:25
+2024-04-21 17:07:26.006 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:07:26
+2024-04-21 17:08:25.986 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:08:25
+2024-04-21 17:08:26.014 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:08:26
+2024-04-21 17:09:25.988 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:09:25
+2024-04-21 17:09:26.014 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:09:26
+2024-04-21 17:10:25.980 [taskScheduler-23] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 17:10:25
+2024-04-21 17:10:25.981 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:10:25
+2024-04-21 17:10:26.013 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:10:26
+2024-04-21 17:11:25.980 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:11:25
+2024-04-21 17:11:26.004 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:11:26
+2024-04-21 17:12:25.990 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:12:25
+2024-04-21 17:12:26.013 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:12:26
+2024-04-21 17:13:25.979 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:13:25
+2024-04-21 17:13:26.006 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:13:26
+2024-04-21 17:14:25.981 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:14:25
+2024-04-21 17:14:26.001 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:14:26
+2024-04-21 17:15:25.978 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:15:25
+2024-04-21 17:15:25.997 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:15:25
+2024-04-21 17:16:25.978 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:16:25
+2024-04-21 17:16:25.999 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:16:25
+2024-04-21 17:17:25.979 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:17:25
+2024-04-21 17:17:26.000 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:17:26
+2024-04-21 17:18:25.979 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:18:25
+2024-04-21 17:18:25.999 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:18:25
+2024-04-21 17:19:25.983 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:19:25
+2024-04-21 17:19:26.002 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:19:26
+2024-04-21 17:20:25.978 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:20:25
+2024-04-21 17:20:25.978 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2024-04-21 17:20:25
+2024-04-21 17:20:26.005 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:20:26
+2024-04-21 17:21:25.980 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:21:25
+2024-04-21 17:21:26.001 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:21:26
+2024-04-21 17:22:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:22:25
+2024-04-21 17:22:26.004 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:22:26
+2024-04-21 17:23:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:23:25
+2024-04-21 17:23:26.001 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:23:26
+2024-04-21 17:24:25.979 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:24:25
+2024-04-21 17:24:26.000 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:24:26
+2024-04-21 17:25:25.979 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:25:25
+2024-04-21 17:25:26.003 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:25:26
+2024-04-21 17:26:25.981 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:26:25
+2024-04-21 17:26:26.003 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:26:26
+2024-04-21 17:27:25.980 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2024-04-21 17:27:25
+2024-04-21 17:27:25.999 [taskScheduler-37] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2024-04-21 17:27:25

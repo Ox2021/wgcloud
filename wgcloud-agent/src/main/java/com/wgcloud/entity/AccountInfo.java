@@ -3,7 +3,7 @@ package com.wgcloud.entity;
 import java.util.Date;
 
 /**
- * @version V2.3
+ 
  * @ClassName:AccountInfo.java
  * @author: wgcloud
  * @date: 2019年11月16日

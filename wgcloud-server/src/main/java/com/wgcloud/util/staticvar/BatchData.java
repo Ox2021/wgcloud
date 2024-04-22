@@ -8,10 +8,9 @@ import java.util.List;
 
 
 /**
- * @version v2.3
+ 
  * @ClassName:BatchData.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: 临时存贮监控数据的静态工具类
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

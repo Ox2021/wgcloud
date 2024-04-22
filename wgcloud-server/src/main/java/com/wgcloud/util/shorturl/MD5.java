@@ -4,10 +4,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @version v2.3
+ 
  * @ClassName:MD5.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: MD5.java
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

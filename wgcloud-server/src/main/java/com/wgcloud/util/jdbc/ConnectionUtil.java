@@ -13,10 +13,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- * @version v2.3
+ 
  * @ClassName:ConnectionUtil.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
+
  * @Description: ConnectionUtil.java
  * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */

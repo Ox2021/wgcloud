@@ -7,14 +7,6 @@ import org.springframework.core.Ordered;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @version v2.3
- * @ClassName:IndexController.java
- * @author: http://www.wgstart.com
- * @date: 2019年11月16日
- * @Description: AppInfoController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
- */
 @Configuration
 public class IndexController implements WebMvcConfigurer {
 
