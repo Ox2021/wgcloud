@@ -64,34 +64,41 @@ public class DashboardCotroller {
     HostInfoService hostInfoService;
 
     /**
-     * 根据条件查询host列表
+     * 根据条件查询主机列表并生成主面板信息
      *
-     * @param model
-     * @param request
-     * @return
+     * @param model    模型对象，用于向视图传递数据
+     * @param request  HTTP请求对象，用于获取请求参数
+     * @return         视图名称，根据请求参数决定返回不同的视图
      */
     @RequestMapping(value = "main")
     public String mainList(Model model, HttpServletRequest request) {
-        Map<String, Object> params = new HashMap<String, Object>();
-        List<ChartInfo> chartInfoList = new ArrayList<ChartInfo>();
+        // 创建参数Map以存储查询条件
+        Map<String, Object> params = new HashMap<>();
+        // 创建空列表以存储图表信息
+        List<ChartInfo> chartInfoList = new ArrayList<>();
         try {
+            // 查询系统信息总数并添加到模型中
             int totalSystemInfoSize = systemInfoService.countByParams(params);
             model.addAttribute("totalSystemInfoSize", totalSystemInfoSize);
+            // 查询应用信息总数并添加到模型中
             int totalSizeApp = appInfoService.countByParams(params);
             model.addAttribute("totalSizeApp", totalSizeApp);
 
+            // 查询内存使用率大于90%的系统数量
             params.put("memPer", 90);
             int memPerSize_90 = systemInfoService.countByParams(params);
             double a = 0;
             if (totalSystemInfoSize != 0) {
                 a = (double) memPerSize_90 / totalSystemInfoSize;
             }
+            // 创建内存使用率大于90%的图表信息对象并添加到列表中
             ChartInfo memPerSize_90_chart = new ChartInfo();
             memPerSize_90_chart.setItem("内存>90%");
             memPerSize_90_chart.setCount(memPerSize_90);
             memPerSize_90_chart.setPercent(FormatUtil.formatDouble(a, 2));
             chartInfoList.add(memPerSize_90_chart);
 
+            // 查询内存使用率在50%到90%之间的系统数量
             params.put("memPer", 50);
             params.put("memPerLe", 90);
             int memPerSize_50_90 = systemInfoService.countByParams(params);
@@ -99,6 +106,7 @@ public class DashboardCotroller {
             if (totalSystemInfoSize != 0) {
                 b = (double) memPerSize_50_90 / totalSystemInfoSize;
             }
+            // 创建内存使用率在50%到90%之间的图表信息对象并添加到列表中
             ChartInfo memPerSize_50_90_chart = new ChartInfo();
             memPerSize_50_90_chart.setItem("内存>50%且<90%");
             memPerSize_50_90_chart.setCount(memPerSize_50_90);
@@ -106,12 +114,14 @@ public class DashboardCotroller {
             chartInfoList.add(memPerSize_50_90_chart);
             params.clear();
 
+            // 查询CPU使用率大于90%的系统数量
             params.put("cpuPer", 90);
             int cpuPerSize_90 = systemInfoService.countByParams(params);
             double c = 0;
             if (totalSystemInfoSize != 0) {
                 c = (double) cpuPerSize_90 / totalSystemInfoSize;
             }
+            // 创建CPU使用率大于90%的图表信息对象并添加到列表中
             ChartInfo cpuPerSize_90_chart = new ChartInfo();
             cpuPerSize_90_chart.setItem("CPU>90%");
             cpuPerSize_90_chart.setCount(cpuPerSize_90);
@@ -119,6 +129,7 @@ public class DashboardCotroller {
             chartInfoList.add(cpuPerSize_90_chart);
             params.clear();
 
+            // 查询CPU和内存使用率都大于90%的系统数量
             params.put("cpuPer", 90);
             params.put("memPer", 90);
             int perSize_90_90 = systemInfoService.countByParams(params);
@@ -126,6 +137,7 @@ public class DashboardCotroller {
             if (totalSystemInfoSize != 0) {
                 d = (double) perSize_90_90 / totalSystemInfoSize;
             }
+            // 创建CPU和内存使用率都大于90%的图表信息对象并添加到列表中
             ChartInfo perSize_90_90_chart = new ChartInfo();
             perSize_90_90_chart.setItem("CPU和内存>90%");
             perSize_90_90_chart.setCount(perSize_90_90);
@@ -133,6 +145,7 @@ public class DashboardCotroller {
             chartInfoList.add(perSize_90_90_chart);
             params.clear();
 
+            // 查询CPU和内存使用率都小于50%的系统数量
             params.put("memPerLe", 50);
             params.put("cpuPerLe", 50);
             int perSize_50_50 = systemInfoService.countByParams(params);
@@ -140,6 +153,7 @@ public class DashboardCotroller {
             if (totalSystemInfoSize != 0) {
                 e = (double) perSize_50_50 / totalSystemInfoSize;
             }
+            // 创建CPU和内存使用率都小于50%的图表信息对象并添加到列表中
             ChartInfo perSize_50_50_chart = new ChartInfo();
             perSize_50_50_chart.setItem("CPU和内存<50%");
             perSize_50_50_chart.setCount(perSize_50_50);
@@ -148,39 +162,50 @@ public class DashboardCotroller {
             model.addAttribute("chartInfoList", JSONUtil.parseArray(chartInfoList));
             params.clear();
 
+            // 查询CPU使用率大于90%的应用数量并添加到模型中
             params.put("cpuPer", 90);
             int memPerSizeApp = appInfoService.countByParams(params);
             model.addAttribute("memPerSizeApp", memPerSizeApp);
             params.clear();
 
+            // 查询日志信息总数并添加到模型中
             int logSize = logInfoService.countByParams(params);
             model.addAttribute("logSize", logSize);
 
             params.clear();
+            // 查询数据库表数量并添加到模型中
             int dbTableSize = dbTableService.countByParams(params);
             model.addAttribute("dbTableSize", dbTableSize);
 
+            // 查询数据库表记录总数并添加到模型中
             Long dbTableSum = dbTableService.sumByParams(params);
             model.addAttribute("dbTableSum", dbTableSum == null ? 0 : dbTableSum);
 
+            // 查询数据库表信息并添加到模型中
             PageInfo pageInfoDbTableList = dbTableService.selectByParams(params, 1, 10);
             model.addAttribute("dbTableList", JSONUtil.parseArray(pageInfoDbTableList.getList()));
 
+            // 查询数据库信息总数并添加到模型中
             int dbInfoSize = dbInfoService.countByParams(params);
             model.addAttribute("dbInfoSize", dbInfoSize);
 
+            // 查询健康监控信息总数并添加到模型中
             int heathSize = heathMonitorService.countByParams(params);
             model.addAttribute("heathSize", heathSize);
+            // 查询健康状态为200的监控信息总数并添加到模型中
             params.put("heathStatus", "200");
             int heath200Size = heathMonitorService.countByParams(params);
             model.addAttribute("heath200Size", heath200Size);
+            // 计算健康状态非200的监控信息总数并添加到模型中
             model.addAttribute("heatherrSize", (heathSize - heath200Size));
 
 
         } catch (Exception e) {
+            // 记录异常信息并保存到日志中
             logger.error("主面板信息异常：", e);
             logInfoService.save("dash/main", "主面板信息错误：" + e.toString(), StaticKeys.LOG_ERROR);
         }
+        // 根据请求参数确定返回的视图
         if (request.getParameter(StaticKeys.DASH_VIEW_ACCOUNT) != null) {
             return "dashView/index";
         } else {

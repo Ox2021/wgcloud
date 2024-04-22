@@ -44,19 +44,26 @@ public class DbTableController {
 
 
     /**
-     * 根据条件查询列表
+     * 查询数据库表列表
      *
-     * @param model
-     * @param request
-     * @return
+     * @param DbTable  数据库表对象，包含分页信息和其他查询条件
+     * @param model    模型对象，用于向视图传递数据
+     * @return         返回数据库表列表视图的名称
      */
     @RequestMapping(value = "list")
     public String DbTableList(DbTable DbTable, Model model) {
-        Map<String, Object> params = new HashMap<String, Object>();
+        // 创建参数Map以存储查询条件
+        Map<String, Object> params = new HashMap<>();
         try {
+            // 根据参数查询数据库表信息，并进行分页处理
             PageInfo<DbTable> pageInfo = dbTableService.selectByParams(params, DbTable.getPage(), DbTable.getPageSize());
+            // 初始化分页信息并添加到模型中
             PageUtil.initPageNumber(pageInfo, model);
+
+            // 查询所有数据库信息
             List<DbInfo> dbInfoList = dbInfoService.selectAllByParams(params);
+
+            // 遍历数据库表列表，将对应的数据库别名设置为表名
             for (DbTable dbTable : pageInfo.getList()) {
                 for (DbInfo dbInfo : dbInfoList) {
                     if (dbInfo.getId().equals(dbTable.getDbInfoId())) {
@@ -64,13 +71,18 @@ public class DbTableController {
                     }
                 }
             }
+
+            // 添加页面URL和分页信息到模型中
             model.addAttribute("pageUrl", "/dbTable/list?1=1");
             model.addAttribute("page", pageInfo);
         } catch (Exception e) {
+            // 捕获异常并记录错误日志
             logger.error("查询数据表信息错误", e);
+            // 将错误信息保存到日志表中
             logInfoService.save("查询数据表信息错误", e.toString(), StaticKeys.LOG_ERROR);
 
         }
+        // 返回数据库表列表视图的名称
         return "mysql/list";
     }
 
@@ -171,7 +183,6 @@ public class DbTableController {
     /**
      * 删除数据源表
      *
-     * @param id
      * @param model
      * @param request
      * @param redirectAttributes
@@ -179,18 +190,27 @@ public class DbTableController {
      */
     @RequestMapping(value = "del")
     public String delete(Model model, HttpServletRequest request, RedirectAttributes redirectAttributes) {
+        // 错误信息提示字符串
         String errorMsg = "删除数据源表信息错误：";
         try {
+            // 检查请求参数中是否包含"id"
             if (!StringUtils.isEmpty(request.getParameter("id"))) {
+                // 根据请求参数中的"id"获取对应的数据表对象
                 DbTable dbTable = dbTableService.selectById(request.getParameter("id"));
+
+                // 记录操作日志：保存删除数据表的操作信息
                 logInfoService.save("删除数据表：" + dbTable.getTableName(), "删除数据表：" + dbTable.getTableName(), StaticKeys.LOG_ERROR);
+
+                // 调用数据表服务的删除方法，删除指定ID的数据表
                 dbTableService.deleteById(request.getParameter("id").split(","));
             }
         } catch (Exception e) {
+            // 发生异常时记录异常信息及堆栈信息，并保存到操作日志中
             logger.error(errorMsg, e);
             logInfoService.save(errorMsg, e.toString(), StaticKeys.LOG_ERROR);
         }
 
+        // 重定向到数据表列表页面
         return "redirect:/dbTable/list";
     }
 

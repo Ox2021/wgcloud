@@ -76,7 +76,7 @@ public class MailSetController {
     /**
      * 保存邮件设置信息
      *
-     * @param MailSet
+     * @param mailSet
      * @param model
      * @param request
      * @return
@@ -118,7 +118,6 @@ public class MailSetController {
     /**
      * 删除告警邮件信息
      *
-     * @param id
      * @param model
      * @param request
      * @param redirectAttributes

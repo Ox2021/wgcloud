@@ -35,8 +35,8 @@ public class HeathMonitorController {
     /**
      * 根据条件查询心跳监控列表
      *
+     * @param HeathMonitor
      * @param model
-     * @param request
      * @return
      */
     @RequestMapping(value = "list")
@@ -59,14 +59,15 @@ public class HeathMonitorController {
     /**
      * 保存心跳监控信息
      *
-     * @param HeathMonitor
-     * @param model
-     * @param request
+     * @param HeathMonitor 心跳监控对象，包含需要保存或更新的信息
+     * @param model Spring MVC中的Model对象，用于存储处理结果和向视图传递数据
+     * @param request HTTP请求对象，用于获取请求参数和属性
      * @return
      */
     @RequestMapping(value = "save")
     public String saveHeathMonitor(HeathMonitor HeathMonitor, Model model, HttpServletRequest request) {
         try {
+            // 检查心跳监控对象的ID是否为空，若为空则执行保存操作，否则执行更新操作
             if (StringUtils.isEmpty(HeathMonitor.getId())) {
                 heathMonitorService.save(HeathMonitor);
             } else {
@@ -74,9 +75,12 @@ public class HeathMonitorController {
             }
 
         } catch (Exception e) {
+            // 发生异常时记录错误日志和异常信息，并保存到操作日志中
             logger.error("保存服务心跳监控错误：", e);
             logInfoService.save(HeathMonitor.getAppName(), "保存心跳监控错误：" + e.toString(), StaticKeys.LOG_ERROR);
         }
+
+        // 重定向到心跳监控列表页面
         return "redirect:/heathMonitor/list";
     }
 
@@ -84,7 +88,6 @@ public class HeathMonitorController {
     /**
      * 查看该心跳监控
      *
-     * @param HeathMonitor
      * @param model
      * @param request
      * @return
@@ -112,7 +115,6 @@ public class HeathMonitorController {
     /**
      * 查看该心跳监控
      *
-     * @param HeathMonitor
      * @param model
      * @param request
      * @return
@@ -137,7 +139,6 @@ public class HeathMonitorController {
     /**
      * 删除心跳监控
      *
-     * @param id
      * @param model
      * @param request
      * @param redirectAttributes
