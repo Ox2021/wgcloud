@@ -14,11 +14,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Date;
 
 /**
- 
  * @ClassName:WarnMailUtil.java
-
  * @Description: WarnMailUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class WarnMailUtil {
 

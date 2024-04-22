@@ -3,11 +3,8 @@ package com.wgcloud.util.jdbc;
 import org.springframework.stereotype.Component;
 
 /**
- 
  * @ClassName:RDSConnection.java
-
  * @Description: RDSConnection.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 @Component
 public class RDSConnection {

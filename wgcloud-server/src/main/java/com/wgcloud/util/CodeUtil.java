@@ -5,11 +5,8 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 /**
- 
  * @ClassName:CodeUtil.java
-
  * @Description: 编码转换
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class CodeUtil {
     /**

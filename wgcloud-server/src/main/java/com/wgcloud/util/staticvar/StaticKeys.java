@@ -4,11 +4,8 @@ package com.wgcloud.util.staticvar;
 import com.wgcloud.entity.MailSet;
 
 /**
- 
  * @ClassName:StaticKeys.java
-
  * @Description: StaticKeys.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class StaticKeys {
 

@@ -14,11 +14,8 @@ import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @version V1.0
  * @ClassName:RestUtil.java
-
  * @Description: RestUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 @Component
 public class RestUtil {

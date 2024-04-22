@@ -5,11 +5,8 @@ import java.util.UUID;
 
 
 /**
- 
  * @ClassName:UUIDUtil.java
-
  * @Description: UUIDUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class UUIDUtil {
 

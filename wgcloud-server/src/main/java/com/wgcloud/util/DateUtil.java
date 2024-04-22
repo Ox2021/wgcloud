@@ -11,11 +11,8 @@ import java.util.Date;
 
 
 /**
- 
  * @ClassName:DateUtil.java
-
  * @Description: DateUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class DateUtil {
     private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);

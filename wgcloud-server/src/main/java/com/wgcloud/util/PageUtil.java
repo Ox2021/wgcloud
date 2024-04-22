@@ -9,11 +9,8 @@ import java.util.List;
 
 
 /**
- 
  * @ClassName:FormatUtil.java
-
  * @Description: FormatUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class PageUtil {
 

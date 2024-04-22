@@ -9,11 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- 
  * @ClassName:TokenUtils.java
-
  * @Description: Md5加密处理
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 @Component
 public class TokenUtils {

@@ -8,11 +8,8 @@ import java.util.List;
 
 
 /**
- 
  * @ClassName:BatchData.java
-
  * @Description: 临时存贮监控数据的静态工具类
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class BatchData {
 

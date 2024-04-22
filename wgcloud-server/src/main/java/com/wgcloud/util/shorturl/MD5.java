@@ -4,11 +4,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- 
  * @ClassName:MD5.java
-
  * @Description: MD5.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class MD5 {
 

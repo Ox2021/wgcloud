@@ -8,11 +8,8 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 /**
- 
  * @ClassName:Encode.java
-
  * @Description: Encode.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class Encode {
 

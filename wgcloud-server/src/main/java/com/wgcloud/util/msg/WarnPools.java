@@ -4,11 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- 
  * @ClassName:WarnPools.java
-
  * @Description: WarnPools.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class WarnPools {
 

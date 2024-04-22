@@ -6,11 +6,8 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- 
  * @ClassName:PropertyUtil.java
-
  * @Description: PropertyUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 public class PropertyUtil {
 

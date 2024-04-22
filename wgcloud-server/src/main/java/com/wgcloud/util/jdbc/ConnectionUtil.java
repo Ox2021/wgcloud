@@ -13,11 +13,8 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- 
  * @ClassName:ConnectionUtil.java
-
  * @Description: ConnectionUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
  */
 @Component
 public class ConnectionUtil {
