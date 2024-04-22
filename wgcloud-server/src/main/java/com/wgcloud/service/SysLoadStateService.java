@@ -13,11 +13,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:SysLoadStateService.java
-
  * @Description: SysLoadStateService.java
- 
  */
 @Service
 public class SysLoadStateService {

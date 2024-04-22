@@ -14,11 +14,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:DeskStateService.java
-
  * @Description: DeskStateService.java
- 
  */
 @Service
 public class DeskStateService {

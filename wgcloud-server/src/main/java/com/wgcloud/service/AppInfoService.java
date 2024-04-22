@@ -16,11 +16,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:AppInfoService.java
-
  * @Description: AppInfoService.java
- 
  */
 @Service
 public class AppInfoService {

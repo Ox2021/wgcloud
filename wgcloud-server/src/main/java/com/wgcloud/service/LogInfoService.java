@@ -16,11 +16,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:LogInfoService.java
-
  * @Description: LogInfoService.java
- 
  */
 @Service
 public class LogInfoService {

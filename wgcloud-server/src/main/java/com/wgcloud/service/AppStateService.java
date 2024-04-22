@@ -13,11 +13,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:AppStateService.java
-
  * @Description: AppStateService.java
- 
  */
 @Service
 public class AppStateService {

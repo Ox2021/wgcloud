@@ -14,11 +14,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- 
  * @ClassName:SystemInfoService.java
-
  * @Description: SystemInfoService.java
- 
  */
 @Service
 public class SystemInfoService {
