@@ -29,6 +29,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @ClassName:AppInfoController.java
+ * @Description: AppInfoController.java
+ */
+@Controller
 @RequestMapping("/appInfo")
 public class AppInfoController {
 
@@ -62,9 +67,6 @@ public class AppInfoController {
 
     /**
      * agent查询进程列表
-     *
-     * @param model
-     * @param request
      * @return
      */
     @ResponseBody
@@ -95,7 +97,6 @@ public class AppInfoController {
      * 根据条件查询进程列表
      *
      * @param model
-     * @param request
      * @return
      */
     @RequestMapping(value = "list")
@@ -211,8 +212,6 @@ public class AppInfoController {
 
     /**
      * 删除进程
-     *
-     * @param id
      * @param model
      * @param request
      * @param redirectAttributes
